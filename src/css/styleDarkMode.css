@@ -1,0 +1,273 @@
+/*DARK MODE*/
+:root {
+  --color-omnifood--1: #e67e22;
+  --color-omnifood--2: #cf711f;
+
+  --color-mapty: #00c46a;
+
+  /*Dark Mode Mainly*/
+  --color-primary: #38bdf8;
+  --color-background: #0a0a0a;
+  --color-prim-tint--1: #60caf9;
+  --color-prim-tint--2: #88d7fb;
+  --color-prim-dark--1: #2d97c6;
+  --color-prim-dark--2: #227195;
+
+  --color-text-main: #e9eaeb;
+  --color-grey--1: #1f2937;
+}
+
+/*General Components*/
+.dark-mode {
+  background-color: var(--color-background);
+  color: var(--color-text-main);
+  transition: all 0.3s;
+}
+
+.dark-mode .heading-primary,
+.dark-mode .heading-secondary,
+.dark-mode .heading-tertiary {
+  color: var(--color-text-main);
+}
+
+.dark-mode .subheading {
+  color: var(--color-primary);
+  text-shadow: 0 0 8px var(--color-primary);
+}
+.dark-mode .btn:link,
+.dark-mode .btn--full:link,
+.dark-mode .btn--full:visited {
+  background-color: var(--color-primary);
+  color: var(--color-grey--1);
+  box-shadow: 0 0 10px var(--color-primary);
+}
+.dark-mode .btn--full:hover,
+.dark-mode .btn--full:active {
+  background-color: var(--color-prim-tint--2);
+}
+
+.dark-mode *:focus {
+  box-shadow: 0 0 0 0.4rem var(--color-prim-tint--1, 0.5);
+}
+
+/**************************/
+/*   LOADER COMPONENTS  */
+/**************************/
+.dark-mode .not-finished {
+  background-image: linear-gradient(
+    to right bottom,
+    var(--color-prim-tint--1),
+    var(--color-prim-dark--2)
+  );
+}
+
+.dark-mode .loader::before,
+.dark-mode .loader::after {
+  color: var(--color-prim-dark--2);
+}
+.dark-mode .loader::after {
+  background-color: var(--color-prim-dark--2);
+}
+
+/**************************/
+/* HEADER &  NAVIGATION */
+/**************************/
+
+.dark-mode .header {
+  background-image: var(--color-background);
+}
+
+.dark-mode .main-nav-link:link,
+.dark-mode .main-nav-link:visited {
+  color: var(--color-primary);
+  text-shadow: 0 0 8px var(--color-primary);
+}
+.dark-mode .main-nav-link:hover,
+.dark-mode .main-nav-link:active {
+  color: var(--color-prim-tint--2);
+}
+
+.dark-mode .main-nav-btn {
+  background-color: var(--color-primary);
+  color: var(--color-grey--1);
+  box-shadow: 0 0 10px var(--color-primary);
+}
+
+.dark-mode .main-nav-btn:hover {
+  background-color: var(--color-prim-tint--2);
+}
+
+.dark-mode.sticky .header {
+  background-image: linear-gradient(
+    to right,
+    var(--color-primary),
+    var(--color-prim-dark--2)
+  );
+}
+
+.dark-mode.sticky .main-nav-link:link,
+.dark-mode.sticky .main-nav-link:visited {
+  color: var(--color-text-main);
+  text-shadow: 0 0 8px var(--color-text-main);
+}
+.dark-mode.sticky .main-nav-link:hover,
+.dark-mode.sticky .main-nav-link:active {
+  color: var(--color-grey--1);
+}
+
+.dark-mode.sticky .main-nav-btn {
+  background-color: var(--color-prim-tint--2);
+  color: var(--color-grey--1);
+  box-shadow: 0 0 10px var(--color-prim-tint--2);
+}
+
+.dark-mode.sticky .main-nav-btn:hover {
+  background-color: var(--color-prim-tint--1);
+}
+
+.dark-mode.sticky input:checked + .slider {
+  box-shadow: 0 0 10px var(--color-background);
+}
+
+.dark-mode .nav-icon {
+  color: var(--color-text-main);
+}
+
+/**************************/
+/* HERO SECTION */
+/**************************/
+
+.dark-mode .text-programming,
+.dark-mode .my-name {
+  color: var(--color-primary);
+  text-shadow: 0 0 8px var(--color-primary);
+}
+.dark-mode .hero-link:link,
+.dark-mode .hero-link:visited {
+  color: var(--color-primary);
+}
+
+.dark-mode .hero-link:hover,
+.dark-mode .hero-link:active {
+  color: var(--color-prim-tint--1);
+}
+.dark-mode .hero-img {
+  transform: scale(1.4);
+
+  animation: floatImage 4s ease-in-out infinite;
+}
+
+@keyframes floatImage {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-24px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/**************************/
+/* PROJECTS SECTION */
+/**************************/
+
+.dark-mode .project {
+  box-shadow: 0 0 10px var(--color-primary);
+}
+.dark-mode .project:hover {
+  box-shadow: 0 0 10px var(--color-primary);
+}
+
+.dark-mode .omnifood .project-title {
+  text-shadow: 0 0 8px var(--color-omnifood--1);
+}
+
+.dark-mode .mapty .project-title {
+  text-shadow: 0 0 8px var(--color-mapty);
+}
+
+.dark-mode .forkify .project-title {
+  text-shadow: 0 0 8px orangered;
+}
+
+.dark-mode .project-window {
+  background-color: var(--color-background);
+  box-shadow: 0 0 10px var(--color-primary);
+}
+
+/**************************/
+/* SKILLS SECTION */
+/**************************/
+
+.dark-mode .skills-description,
+.dark-mode .skill-description {
+  color: var(--color-text-main);
+}
+.dark-mode .skill-card {
+  box-shadow: 0 0 10px var(--color-primary);
+}
+.dark-mode .skill-card:hover {
+  box-shadow: 0 0 10px var(--color-primary, 0.075);
+}
+.dark-mode .skill-card.programming::before {
+  background: linear-gradient(
+    135deg,
+    rgba(59, 130, 246, 0.05),
+    rgba(147, 51, 234, 0.05)
+  );
+}
+.dark-mode .skill-card.technologies::before {
+  background: linear-gradient(
+    135deg,
+    rgba(34, 197, 94, 0.05),
+    rgba(20, 184, 166, 0.05)
+  );
+}
+
+.dark-mode .skill-card.other::before {
+  background: linear-gradient(
+    135deg,
+    rgba(249, 115, 22, 0.05),
+    rgba(236, 72, 153, 0.05)
+  );
+}
+.dark-mode .card-title,
+.dark-mode .skill-name {
+  color: var(--color-prim-dark--1);
+}
+
+.dark-mode .skill-badge {
+  background-color: var(--color-prim-dark--2);
+  color: var(--color-text-main);
+}
+
+.dark-mode .learning-indicator {
+  color: var(--color-text-main);
+}
+
+/* Special A.I. Tools Styling */
+
+.dark-mode .ai-badge {
+  background: linear-gradient(
+    135deg,
+    rgba(139, 92, 246, 0.18),
+    rgba(124, 58, 237, 0.18)
+  );
+  color: #b184ff;
+  border: 1px solid rgba(139, 92, 246, 0.28);
+  font-weight: 600;
+}
+
+/**************************/
+/*       FOOTER           */
+/**************************/
+.dark-mode .footer {
+  color: var(--color-text-main);
+}
+
+.dark-mode .footer h2 {
+  color: var(--color-prim-tint--2);
+}

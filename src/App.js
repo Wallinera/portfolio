@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./css/general.css";
+import "./css/style.css";
+import "./css/styleDarkMode.css";
+import "./css/quaries.css";
+
+import { useRef } from "react";
+import useStickyNav from "./useStickyNav";
+
+import Main from "./Main";
+import MainHeader from "./Header/MainHeader";
+import Hero from "./Hero/Hero";
+import Projects from "./Projects/Projects";
+import SkillsSection from "./Skills/skillsSection";
+import Footer from "./Footer/Footer";
 
 function App() {
+  const sectionHeroEl = useRef("");
+  useStickyNav(sectionHeroEl);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Main>
+      <MainHeader />
+      <Hero sectionHeroEl={sectionHeroEl} />
+      <Projects />
+      <SkillsSection />
+      <Footer />
+    </Main>
   );
 }
 
