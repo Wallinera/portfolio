@@ -15,6 +15,7 @@
   --color-omnifood--2: #cf711f;
   --color-mapty: #00c46a;
   --color-usepopcorn: #6741d9;
+  --color-loopstudios: #c69;
 }
 
 /**************************/
@@ -295,7 +296,7 @@ input:checked + .slider:before {
 
 .projects {
   display: grid;
-  grid-template-columns: 1.2fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 3.2rem;
 }
 
@@ -344,15 +345,20 @@ input:checked + .slider:before {
   margin-bottom: 3rem;
 }
 
-.omnifood .project-title {
+/*PROJECT CUSTOM COLORS*/
+
+.omnifood .project-title,
+.omnifood .tech-skill {
   color: #cf711f; /* Main color of omnifood */
 }
 
-.mapty .project-title {
+.mapty .project-title,
+.mapty .tech-skill {
   color: green;
 }
 
-.forkify .project-title {
+.forkify .project-title,
+.forkify .tech-skill {
   color: orangered;
 }
 
@@ -364,6 +370,41 @@ input:checked + .slider:before {
 .portfolio .project-title,
 .portfolio .tech-skill {
   color: var(--color-brand--1);
+}
+
+.loopstudios .project-title,
+.loopstudios .tech-skill {
+  color: var(--color-loopstudios);
+}
+
+.omnifood-link:link,
+.omnifood-link:active {
+  background-color: var(--color-omnifood--1);
+}
+
+.omnifood-link:hover,
+.omnifood-link:active {
+  background-color: var(--color-omnifood--2);
+}
+
+.mapty-link:link,
+.mapty-link:active {
+  background-color: var(--color-mapty);
+}
+
+.forkify-link:link,
+.forkify-link:active {
+  background-color: orangered;
+}
+
+.usepopcorn-link:link,
+.usepopcorn-link:visited {
+  background-color: var(--color-usepopcorn);
+}
+
+.loopstudios-link:link,
+.loopstudios-link:visited {
+  background-color: var(--color-loopstudios);
 }
 
 /*Project Detailed Pop-up*/
@@ -458,53 +499,6 @@ input:checked + .slider:before {
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
   color: #fff;
-}
-
-.omnifood-link:link,
-.omnifood-link:active {
-  background-color: var(--color-omnifood--1);
-}
-
-.omnifood-link:hover,
-.omnifood-link:active {
-  background-color: var(--color-omnifood--2);
-}
-
-.omnifood .tech-skill {
-  color: var(--color-omnifood--2);
-}
-
-.mapty-link:link,
-.mapty-link:active {
-  background-color: var(--color-mapty);
-}
-
-.mapty-link:hover,
-.mapty-link:active {
-  background-color: var(--color-mapty);
-}
-
-.mapty .tech-skill {
-  color: var(--color-mapty);
-}
-
-.forkify-link:link,
-.forkify-link:active {
-  background-color: orangered;
-}
-
-.forkify-link:hover,
-.forkify-link:active {
-  background-color: orangered;
-}
-
-.usepopcorn-link:link,
-.usepopcorn-link:visited {
-  background-color: var(--color-usepopcorn);
-}
-
-.forkify .tech-skill {
-  color: orangered;
 }
 
 /**************************/

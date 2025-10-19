@@ -33,7 +33,7 @@ export const skillsData = [
         level: 92,
         description: "Semantic markup",
       },
-      { name: "CSS3", level: 84, description: "Flexbox, Grid, animations" },
+      { name: "CSS3", level: 84, description: "Flexbox, Grid, SASS" },
       { name: "JavaScript", level: 70, description: "ES6+, DOM manipulation" },
       { name: "C#", level: 20, description: "Scripting, Basics" },
       { name: "Python", level: 18, description: "Scripting, Basics" },
@@ -58,7 +58,7 @@ export const skillsData = [
       { name: "Web APIs", level: 78, description: "Fetch, localStorage" },
       {
         name: "React",
-        level: 25,
+        level: 43,
         description: "React Native, Nextjs",
       },
     ],

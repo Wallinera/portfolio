@@ -3,6 +3,7 @@ import omnifoodImg from "../images/omnifoodProject.webp";
 import maptyImg from "../images/maptyProject.webp";
 import portfolioImg from "../images/portfolioProject.webp";
 import usePopcornProject from "../images/usePopcornProject.webp";
+import loopStudiosProject from "../images/loopsProject.webp";
 
 export const projectsData = [
   {
@@ -19,6 +20,20 @@ export const projectsData = [
     ),
     url: "https://usepopcornprojekt.netlify.app",
     id: "usepopcorn",
+  },
+  {
+    name: "loopstudios",
+    image: loopStudiosProject,
+    description: "A Landing page for a fictional VR company.",
+    notes: (
+      <p>
+        First time using <span className="tech-skill">SCSS</span> as well as the
+        first project with the help of{" "}
+        <span className="tech-skill">Frontend Mentor</span>.
+      </p>
+    ),
+    url: "https://loopstudiosprojeckt.netlify.app",
+    id: "loopstudios",
   },
   {
     name: "omnifood",
