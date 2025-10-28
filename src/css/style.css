@@ -16,6 +16,7 @@
   --color-mapty: #00c46a;
   --color-usepopcorn: #6741d9;
   --color-loopstudios: #c69;
+  --color-clipboard: rgb(38, 186, 164);
 }
 
 /**************************/
@@ -377,6 +378,13 @@ input:checked + .slider:before {
   color: var(--color-loopstudios);
 }
 
+.clipboard .project-title,
+.clipboard .tech-skill {
+  color: var(--color-clipboard);
+}
+
+/*Site button*/
+
 .omnifood-link:link,
 .omnifood-link:active {
   background-color: var(--color-omnifood--1);
@@ -405,6 +413,11 @@ input:checked + .slider:before {
 .loopstudios-link:link,
 .loopstudios-link:visited {
   background-color: var(--color-loopstudios);
+}
+
+.clipboard-link:link,
+.clipboard-link:visited {
+  background-color: var(--color-clipboard);
 }
 
 /*Project Detailed Pop-up*/

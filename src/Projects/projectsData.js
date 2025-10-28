@@ -4,6 +4,7 @@ import maptyImg from "../images/maptyProject.webp";
 import portfolioImg from "../images/portfolioProject.webp";
 import usePopcornProject from "../images/usePopcornProject.webp";
 import loopStudiosProject from "../images/loopsProject.webp";
+import clipboardProject from "../images/clipboardProject.webp";
 
 export const projectsData = [
   {
@@ -20,6 +21,22 @@ export const projectsData = [
     ),
     url: "https://usepopcornprojekt.netlify.app",
     id: "usepopcorn",
+  },
+  {
+    name: "clipboard",
+    image: clipboardProject,
+    description: "Landing page of a fictional app called Clipboard",
+    notes: (
+      <p>
+        First time experience with{" "}
+        <span className="tech-skill">Tailwindcss</span>, a framework which I can
+        classify as the future of CSS. Used{" "}
+        <span className="tech-skill">utility classes</span> as well as{" "}
+        <span className="tech-skill">custom Tailwindcss classes</span>
+      </p>
+    ),
+    url: "https://clipboard-omega-six.vercel.app",
+    id: "clipboard",
   },
   {
     name: "loopstudios",
