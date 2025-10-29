@@ -17,6 +17,7 @@
   --color-usepopcorn: #6741d9;
   --color-loopstudios: #c69;
   --color-clipboard: rgb(38, 186, 164);
+  --color-shortly: rgb(42, 207, 207);
 }
 
 /**************************/
@@ -383,6 +384,11 @@ input:checked + .slider:before {
   color: var(--color-clipboard);
 }
 
+.shortly .project-title,
+.shortly .tech-skill {
+  color: var(--color-shortly);
+}
+
 /*Site button*/
 
 .omnifood-link:link,
@@ -418,6 +424,11 @@ input:checked + .slider:before {
 .clipboard-link:link,
 .clipboard-link:visited {
   background-color: var(--color-clipboard);
+}
+
+.shortly-link:link,
+.shortly-link:visited {
+  background-color: var(--color-shortly);
 }
 
 /*Project Detailed Pop-up*/

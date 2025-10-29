@@ -5,6 +5,7 @@ import portfolioImg from "../images/portfolioProject.webp";
 import usePopcornProject from "../images/usePopcornProject.webp";
 import loopStudiosProject from "../images/loopsProject.webp";
 import clipboardProject from "../images/clipboardProject.webp";
+import shortlyProject from "../images/shortlyProject.webp";
 
 export const projectsData = [
   {
@@ -23,9 +24,25 @@ export const projectsData = [
     id: "usepopcorn",
   },
   {
-    name: "clipboard",
+    name: "shortly",
+    image: shortlyProject,
+    description: "A simple, responsive website for creating short links.",
+    notes: (
+      <p>
+        Build with <span className="tech-skill">Tailwindcss</span>. Used{" "}
+        <span className="tech-skill">utility classes</span> as well as{" "}
+        <span className="tech-skill">custom Tailwindcss classes.</span>{" "}
+        Developed on
+        <span className="tech-skill"> React(Vite).</span>
+      </p>
+    ),
+    url: "https://shortly-alpha.vercel.app",
+    id: "shortly",
+  },
+  {
+    name: "shortly",
     image: clipboardProject,
-    description: "Landing page of a fictional app called Clipboard",
+    description: "Landing page of a fictional app called Clipboard.",
     notes: (
       <p>
         First time experience with{" "}
