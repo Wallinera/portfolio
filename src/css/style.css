@@ -18,6 +18,7 @@
   --color-loopstudios: #c69;
   --color-clipboard: rgb(38, 186, 164);
   --color-shortly: rgb(42, 207, 207);
+  --color-fylo: rgb(89, 113, 151);
 }
 
 /**************************/
@@ -389,6 +390,11 @@ input:checked + .slider:before {
   color: var(--color-shortly);
 }
 
+.fylo .project-title,
+.fylo .tech-skill {
+  color: var(--color-fylo);
+}
+
 /*Site button*/
 
 .omnifood-link:link,
@@ -429,6 +435,11 @@ input:checked + .slider:before {
 .shortly-link:link,
 .shortly-link:visited {
   background-color: var(--color-shortly);
+}
+
+.fylo-link:link,
+.fylo-link:visited {
+  background-color: var(--color-fylo);
 }
 
 /*Project Detailed Pop-up*/

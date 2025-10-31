@@ -6,6 +6,7 @@ import usePopcornProject from "../images/usePopcornProject.webp";
 import loopStudiosProject from "../images/loopsProject.webp";
 import clipboardProject from "../images/clipboardProject.webp";
 import shortlyProject from "../images/shortlyProject.webp";
+import fyloProject from "../images/fyloProject.webp";
 
 export const projectsData = [
   {
@@ -24,6 +25,22 @@ export const projectsData = [
     id: "usepopcorn",
   },
   {
+    name: "fylo",
+    image: fyloProject,
+    description:
+      "A responsive landing page for a fictional company called Fylo.",
+    notes: (
+      <p>
+        Build with <span className="tech-skill">Tailwindcss</span>. Used{" "}
+        <span className="tech-skill">utility classes</span> as well as{" "}
+        <span className="tech-skill">dark mode.</span> Developed on
+        <span className="tech-skill"> React(Vite).</span>
+      </p>
+    ),
+    url: "https://fylo-alpha-liard.vercel.app",
+    id: "fylo",
+  },
+  {
     name: "shortly",
     image: shortlyProject,
     description: "A simple, responsive website for creating short links.",
@@ -40,7 +57,7 @@ export const projectsData = [
     id: "shortly",
   },
   {
-    name: "shortly",
+    name: "clipboard",
     image: clipboardProject,
     description: "Landing page of a fictional app called Clipboard.",
     notes: (
