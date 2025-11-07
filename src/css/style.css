@@ -19,6 +19,7 @@
   --color-clipboard: rgb(38, 186, 164);
   --color-shortly: rgb(42, 207, 207);
   --color-fylo: rgb(89, 113, 151);
+  --color-bookmark: rgb(83, 104, 223);
 }
 
 /**************************/
@@ -395,6 +396,11 @@ input:checked + .slider:before {
   color: var(--color-fylo);
 }
 
+.bookmark .project-title,
+.bookmark .tech-skill {
+  color: var(--color-bookmark);
+}
+
 /*Site button*/
 
 .omnifood-link:link,
@@ -440,6 +446,11 @@ input:checked + .slider:before {
 .fylo-link:link,
 .fylo-link:visited {
   background-color: var(--color-fylo);
+}
+
+.bookmark-link:link,
+.bookmark-link:visited {
+  background-color: var(--color-bookmark);
 }
 
 /*Project Detailed Pop-up*/

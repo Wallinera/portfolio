@@ -7,6 +7,7 @@ import loopStudiosProject from "../images/loopsProject.webp";
 import clipboardProject from "../images/clipboardProject.webp";
 import shortlyProject from "../images/shortlyProject.webp";
 import fyloProject from "../images/fyloProject.webp";
+import bookmarkProject from "../images/bookmarkProject.webp";
 
 export const projectsData = [
   {
@@ -23,6 +24,21 @@ export const projectsData = [
     ),
     url: "https://usepopcornprojekt.netlify.app",
     id: "usepopcorn",
+  },
+  {
+    name: "bookmark",
+    image: bookmarkProject,
+    description: "Landing page for a fictional bookmark managing app.",
+    notes: (
+      <p>
+        Build with <span className="tech-skill">Tailwindcss</span>. Used{" "}
+        <span className="tech-skill">utility classes</span>. Developed on
+        <span className="tech-skill"> React(Vite)</span> with{" "}
+        <span className="tech-skill">mobile-first</span> approach.
+      </p>
+    ),
+    url: "https://bookmark-project-tan.vercel.app",
+    id: "bookmark",
   },
   {
     name: "fylo",
