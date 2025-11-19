@@ -8,6 +8,7 @@ import clipboardProject from "../images/clipboardProject.webp";
 import shortlyProject from "../images/shortlyProject.webp";
 import fyloProject from "../images/fyloProject.webp";
 import bookmarkProject from "../images/bookmarkProject.webp";
+import spaceTourismProject from "../images/spaceTourismProject.webp";
 
 export const projectsData = [
   {
@@ -24,6 +25,21 @@ export const projectsData = [
     ),
     url: "https://usepopcornprojekt.netlify.app",
     id: "usepopcorn",
+  },
+  {
+    name: "spacetourism",
+    image: spaceTourismProject,
+    description: "A multi-page website for a fictional space tourism company.",
+    notes: (
+      <p>
+        Build with <span className="tech-skill">React</span> and{" "}
+        <span className="tech-skill">Tailwindcss</span>. Used core React
+        features such as <span className="tech-skill">React Router</span> for
+        navigation.
+      </p>
+    ),
+    url: "https://space-tourism-alpha-lyart.vercel.app",
+    id: "spacetourism",
   },
   {
     name: "bookmark",

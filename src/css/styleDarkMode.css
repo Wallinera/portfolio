@@ -2,6 +2,7 @@
 :root {
   --color-omnifood--1: #e67e22;
   --color-omnifood--2: #cf711f;
+  --color-spacetourism--dark: #d0d6f9;
 
   --color-mapty: #00c46a;
 
@@ -191,6 +192,20 @@
 
 .dark-mode .forkify .project-title {
   text-shadow: 0 0 8px orangered;
+}
+.dark-mode .usepopcorn .project-title {
+  text-shadow: 0 0 8px var(--color-usepopcorn);
+}
+
+.dark-mode .spacetourism .project-title,
+.dark-mode .spacetourism .tech-skill {
+  color: var(--color-spacetourism--dark);
+  text-shadow: 0 0 8px var(--color-spacetourism--dark);
+}
+.dark-mode .spacetourism-link:link,
+.dark-mode .spacetourism-link:visited {
+  color: var(--color-background);
+  background-color: var(--color-spacetourism--dark);
 }
 
 .dark-mode .project-window {

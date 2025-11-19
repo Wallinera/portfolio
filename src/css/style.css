@@ -20,6 +20,8 @@
   --color-shortly: rgb(42, 207, 207);
   --color-fylo: rgb(89, 113, 151);
   --color-bookmark: rgb(83, 104, 223);
+  --color-spacetourism--light: #0b0d17;
+  --color-spacetourism--dark: #d0d6f9;
 }
 
 /**************************/
@@ -401,6 +403,11 @@ input:checked + .slider:before {
   color: var(--color-bookmark);
 }
 
+.spacetourism .project-title,
+.spacetourism .tech-skill {
+  color: var(--color-spacetourism--light);
+}
+
 /*Site button*/
 
 .omnifood-link:link,
@@ -451,6 +458,11 @@ input:checked + .slider:before {
 .bookmark-link:link,
 .bookmark-link:visited {
   background-color: var(--color-bookmark);
+}
+
+.spacetourism-link:link,
+.spacetourism-link:visited {
+  background-color: var(--color-spacetourism--light);
 }
 
 /*Project Detailed Pop-up*/
