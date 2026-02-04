@@ -9,8 +9,59 @@ import shortlyProject from "../images/shortlyProject.webp";
 import fyloProject from "../images/fyloProject.webp";
 import bookmarkProject from "../images/bookmarkProject.webp";
 import spaceTourismProject from "../images/spaceTourismProject.webp";
+import worldwideProject from "../images/worldwideProject.PNG";
+import wildOasisProject from "../images/wildOasisProject.webp";
+import pizzaCoProject from "../images/pizzaCoProject.webp";
 
 export const projectsData = [
+  {
+    name: "wildoasis",
+    image: wildOasisProject,
+    description:
+      "A hotel management web app, where hotel employees can manage cabins, bookings, and guests.",
+    notes: (
+      <p>
+        The biggest project yet, where I learned{" "}
+        <span className="tech-skill">React-Query</span>,{" "}
+        <span className="tech-skill">Supabase Authentication</span> and,{" "}
+        <span className="tech-skill">Styled Components</span>
+      </p>
+    ),
+    url: "https://the-wild-oasis-umber-five.vercel.app/login",
+    id: "wildoasis",
+  },
+  {
+    name: "pizzaco",
+    image: pizzaCoProject,
+    description:
+      "A pizza delivery web application for managing orders, customers, and inventory.",
+    notes: (
+      <p>
+        The educational project , where I mostly focused on learning{" "}
+        <span className="tech-skill">REDUX</span>,{" "}
+        <span className="tech-skill">Redux-Toolkit</span> and,{" "}
+        <span className="tech-skill">Supabase</span>
+      </p>
+    ),
+    url: "https://pizza-co-five.vercel.app",
+    id: "pizzaco",
+  },
+  {
+    name: "worldwide",
+    image: worldwideProject,
+    description:
+      "A location-tracking web application that lets users save, view, and manage their favorite travel locations worldwide.",
+    notes: (
+      <p>
+        Through this project I learned{" "}
+        <span className="tech-skill">React-Router</span>,{" "}
+        <span className="tech-skill">useReducer</span> and,{" "}
+        <span className="tech-skill">Context API</span>
+      </p>
+    ),
+    url: "https://world-wide-omega.vercel.app",
+    id: "worldwide",
+  },
   {
     name: "usepopcorn",
     image: usePopcornProject,

@@ -197,6 +197,24 @@
   text-shadow: 0 0 8px var(--color-usepopcorn);
 }
 
+.dark-mode .worldwide .project-title,
+.dark-mode .worldwide .tech-skill {
+  color: var(--color-worldwide);
+  text-shadow: 0 0 8px var(--color-worldwide);
+}
+
+.dark-mode .wildoasis .project-title,
+.dark-mode .wildoasis .tech-skill {
+  color: var(--color-wildoasis);
+  text-shadow: 0 0 8px var(--color-wildoasis);
+}
+
+.dark-mode .pizzaco .project-title,
+.dark-mode .pizzaco .tech-skill {
+  color: var(--color-pizzaco);
+  text-shadow: 0 0 8px var(--color-pizzaco);
+}
+
 .dark-mode .spacetourism .project-title,
 .dark-mode .spacetourism .tech-skill {
   color: var(--color-spacetourism--dark);

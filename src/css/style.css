@@ -22,6 +22,9 @@
   --color-bookmark: rgb(83, 104, 223);
   --color-spacetourism--light: #0b0d17;
   --color-spacetourism--dark: #d0d6f9;
+  --color-worldwide: #ffb545;
+  --color-wildoasis: #22c55e;
+  --color-pizzaco: #ef4444;
 }
 
 /**************************/
@@ -408,6 +411,21 @@ input:checked + .slider:before {
   color: var(--color-spacetourism--light);
 }
 
+.worldwide .project-title,
+.worldwide .tech-skill {
+  color: var(--color-worldwide);
+}
+
+.wildoasis .project-title,
+.wildoasis .tech-skill {
+  color: var(--color-wildoasis);
+}
+
+.pizzaco .project-title,
+.pizzaco .tech-skill {
+  color: var(--color-pizzaco);
+}
+
 /*Site button*/
 
 .omnifood-link:link,
@@ -463,6 +481,20 @@ input:checked + .slider:before {
 .spacetourism-link:link,
 .spacetourism-link:visited {
   background-color: var(--color-spacetourism--light);
+}
+
+.worldwide-link:link,
+.worldwide-link:visited {
+  background-color: var(--color-worldwide);
+}
+
+.wildoasis-link:link,
+.wildoasis-link:visited {
+  background-color: var(--color-wildoasis);
+}
+.pizzaco-link:link,
+.pizzaco-link:visited {
+  background-color: var(--color-pizzaco);
 }
 
 /*Project Detailed Pop-up*/
