@@ -58,8 +58,8 @@ export const skillsData = [
       { name: "Web APIs", level: 78, description: "Fetch, localStorage" },
       {
         name: "React",
-        level: 43,
-        description: "React Native, Nextjs",
+        level: 90,
+        description: "Next.js, Redux, RQuery",
       },
     ],
   },
@@ -80,8 +80,8 @@ export const skillsData = [
       },
       {
         name: "German",
-        level: 70,
-        description: "B2, Telc-B2 Certified",
+        level: 90,
+        description: "C1, Telc-C1 Hochschule Certified",
       },
 
       {

@@ -1,4 +1,4 @@
-import B2 from "../B2.pdf";
+import C1 from "../../src/C1.pdf";
 
 export default function Skill({ skill, category }) {
   return (
@@ -8,7 +8,7 @@ export default function Skill({ skill, category }) {
           <div className="skill-name">
             {skill.name === "German" ? (
               <a
-                href={B2}
+                href={C1}
                 target="_blank"
                 rel="noreferrer"
                 style={{ textDecoration: "none" }}
