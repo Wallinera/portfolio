@@ -1,4 +1,4 @@
-import CV from "../cv-26-09.2025.pdf";
+import CV from "../cv-2026-02-20.pdf";
 
 export default function HeroSocialLinks({ children }) {
   return (
