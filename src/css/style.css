@@ -420,6 +420,10 @@ input:checked + .slider:before {
 .wildoasis .tech-skill {
   color: var(--color-wildoasis);
 }
+.wildoasisguest .project-title,
+.wildoasisguest .tech-skill {
+  color: var(--color-light--1);
+}
 
 .pizzaco .project-title,
 .pizzaco .tech-skill {
@@ -495,6 +499,10 @@ input:checked + .slider:before {
 .pizzaco-link:link,
 .pizzaco-link:visited {
   background-color: var(--color-pizzaco);
+}
+.wildoasisguest-link:link,
+.wildoasisguest-link:visited {
+  background-color: var(--color-light--1);
 }
 
 /*Project Detailed Pop-up*/

@@ -11,9 +11,27 @@ import bookmarkProject from "../images/bookmarkProject.webp";
 import spaceTourismProject from "../images/spaceTourismProject.webp";
 import worldwideProject from "../images/worldwideProject.PNG";
 import wildOasisProject from "../images/wildOasisProject.webp";
+import wildOasisGuest from "../images/wildOasisGuest.webp";
 import pizzaCoProject from "../images/pizzaCoProject.webp";
 
 export const projectsData = [
+  {
+    name: "wildoasisguest",
+    image: wildOasisGuest,
+    description: "Customer side of the management app, built with NEXT.JS",
+    notes: (
+      <p>
+        The groundbreaking yet simple project yet, where I finally learned{" "}
+        <span className="tech-skill">NEXT.JS</span>,{" "}
+        <span className="tech-skill">Data Cache & Revalidation</span> and,
+        Authentication through <span className="tech-skill">Better AUTH</span>{" "}
+        It is with this project, that I reinforced my fundemental knowledge
+        about <span className="tech-skill">Backend Development</span>
+      </p>
+    ),
+    url: "https://the-wild-oasis-guest-six.vercel.app",
+    id: "wildoasisguest",
+  },
   {
     name: "wildoasis",
     image: wildOasisProject,
