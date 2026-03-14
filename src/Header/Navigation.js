@@ -1,4 +1,4 @@
-import CV from "../cv-2026-02-26.pdf";
+import CV from "../cv-2026-03-14.pdf";
 
 export default function Navigation({
   mobileNavOpen,

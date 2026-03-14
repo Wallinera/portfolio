@@ -10,14 +10,13 @@ export const skillsData = [
         level: 90,
         description: "Advanced prompting, code generation",
       },
+      {
+        name: "Claude",
+        level: 90,
+        description: "Technical discussions, analysis",
+      },
       { name: "GitHub Copilot", level: 78, description: "AI-assisted coding" },
       { name: "Figma", level: 65, description: "Design automation" },
-      { name: "Kombai", level: 50, description: "Image to HTML/CSS/JS" },
-      // {
-      //   name: "Claude",
-      //   level: 90,
-      //   description: "Technical discussions, analysis",
-      // },
 
       // { name: "Midjourney", level: 82, description: "AI image generation" },
       // { name: "Cursor IDE", level: 85, description: "AI-powered development" },
@@ -34,8 +33,12 @@ export const skillsData = [
         description: "Semantic markup",
       },
       { name: "CSS3", level: 84, description: "Flexbox, Grid, SASS" },
-      { name: "JavaScript", level: 70, description: "ES6+, DOM manipulation" },
-      { name: "C#", level: 20, description: "Scripting, Basics" },
+      { name: "JavaScript", level: 80, description: "ES6+, DOM manipulation" },
+      {
+        name: "TypeScript",
+        level: 60,
+        description: "Type checking, interfaces",
+      },
       { name: "Python", level: 18, description: "Scripting, Basics" },
     ],
   },
@@ -44,6 +47,11 @@ export const skillsData = [
     icon: "⚙️",
     category: "technologies",
     skills: [
+      {
+        name: "React",
+        level: 90,
+        description: "Next.js, Redux, RQuery",
+      },
       {
         name: "Responsive Design",
         level: 90,
@@ -56,11 +64,6 @@ export const skillsData = [
       },
       { name: "Git & GitHub", level: 82, description: "Version control" },
       { name: "Web APIs", level: 78, description: "Fetch, localStorage" },
-      {
-        name: "React",
-        level: 90,
-        description: "Next.js, Redux, RQuery",
-      },
     ],
   },
   {

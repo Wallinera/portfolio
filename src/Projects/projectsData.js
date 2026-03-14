@@ -13,15 +13,35 @@ import worldwideProject from "../images/worldwideProject.PNG";
 import wildOasisProject from "../images/wildOasisProject.webp";
 import wildOasisGuest from "../images/wildOasisGuest.webp";
 import pizzaCoProject from "../images/pizzaCoProject.webp";
+import trackYourJobProject from "../images/trackYourJob.webp";
 
 export const projectsData = [
+  {
+    name: "trackyourjob",
+    image: trackYourJobProject,
+    description: `About
+A Kanban-style job application tracker that helps you organize and manage your job search.`,
+    notes: (
+      <p>
+        Simple Kanban-style job application tracker, Built with{" "}
+        <span className="tech-skill">NEXT.JS</span>,{" "}
+        <span className="tech-skill">MongoDB</span>, and{" "}
+        <span className="tech-skill">DND-Kit</span> for drag-and-drop support
+        across customizable boards and columns. Also used{" "}
+        <span className="tech-skill">TypeScript</span> for the first time in a
+        React project.
+      </p>
+    ),
+    url: "https://track-your-job-gilt.vercel.app",
+    id: "trackyourjob",
+  },
   {
     name: "wildoasisguest",
     image: wildOasisGuest,
     description: "Customer side of the management app, built with NEXT.JS",
     notes: (
       <p>
-        The groundbreaking yet simple project yet, where I finally learned{" "}
+        The groundbreaking yet simple project, where I finally learned{" "}
         <span className="tech-skill">NEXT.JS</span>,{" "}
         <span className="tech-skill">Data Cache & Revalidation</span> and,
         Authentication through <span className="tech-skill">Better AUTH</span>{" "}

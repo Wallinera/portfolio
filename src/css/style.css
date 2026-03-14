@@ -25,6 +25,7 @@
   --color-worldwide: #ffb545;
   --color-wildoasis: #22c55e;
   --color-pizzaco: #ef4444;
+  --color-jobtracker: #f76382;
 }
 
 /**************************/
@@ -430,6 +431,12 @@ input:checked + .slider:before {
   color: var(--color-pizzaco);
 }
 
+.trackyourjob .project-title,
+.trackyourjob .project-title,
+.tech-skill {
+  color: var(--color-jobtracker);
+}
+
 /*Site button*/
 
 .omnifood-link:link,
@@ -503,6 +510,11 @@ input:checked + .slider:before {
 .wildoasisguest-link:link,
 .wildoasisguest-link:visited {
   background-color: var(--color-light--1);
+}
+
+.wildoasisguest-link:link,
+.wildoasisguest-link:visited {
+  background-color: var(--color-jobtracker);
 }
 
 /*Project Detailed Pop-up*/
