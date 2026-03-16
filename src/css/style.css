@@ -512,8 +512,8 @@ input:checked + .slider:before {
   background-color: var(--color-light--1);
 }
 
-.wildoasisguest-link:link,
-.wildoasisguest-link:visited {
+.trackyourjob-link:link,
+.trackyourjob-link:visited {
   background-color: var(--color-jobtracker);
 }
 
